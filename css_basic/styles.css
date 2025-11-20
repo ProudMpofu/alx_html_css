@@ -1,0 +1,27 @@
+
+
+/* STEP 1 — Make the page use flexbox layout */
+
+/* BODY: vertical layout (header → main → footer) */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* ensures page fills screen height */
+}
+
+/* MAIN: horizontal layout (article | aside) */
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto; /* allow main to expand within the body */
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
