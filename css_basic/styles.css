@@ -25,3 +25,18 @@ aside {
     flex: 1;
     overflow-y: auto;
 }
+
+h1 {text-shadow: 0px -5px 5px #F80002;
+
+}
+
+/* changed logo size */
+#logo{
+  
+  font-size: 40px;
+}
+
+/*Backgroung color for website*/
+main {background-color: aqua;
+
+}
